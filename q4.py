@@ -27,7 +27,19 @@
 # Para obter a nota máxima dessa questão, não deve-se utilizar nenhuma função pronta do Python.
 
 def q4(s):
-    # Escreva seu código aqui
+    x=str(input('palavra:'))
+    lis=[]
+    numer=0
+    pala=('Q','W','E','R','T','Y','U','I','O','P','A','S','D','F','G','H','J','K','L','Z','X','C','V','B','N','M')
+    for y in range(len(x)):
+        lis.append(x[y])
+    
+    for q in range(len(lis)):
+        for w in range(len(pala)):
+            if lis[q]==pala[w]:
+                numer=numer+1
+            
+    print(f'há {numer} palavras')
     return 0
 
 
