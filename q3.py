@@ -31,8 +31,16 @@
 # Para obter a nota máxima dessa questão, não deve-se utilizar nenhuma função pronta do Python.
 
 def q3(arr, d):
-    # Escreva seu código aqui
-    return 0
+    trios = []
+    for i in arr:
+        x = []
+        if((i+d) in arr):
+            if (i+2*d in arr:
+                x.append(i)
+                x.append(i+d)
+                x.append(i+(2*d))
+                trios.append(x)
+    return (len(trios))
 
 
 if __name__ == '__main__':
