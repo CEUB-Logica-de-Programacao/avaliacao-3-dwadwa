@@ -31,7 +31,7 @@
 # Para obter a nota máxima dessa questão, não deve-se utilizar nenhuma função pronta do Python.
 
 def q3(arr, d):
-    trinca=[]
+    tri=[]
     for k in arr:
         a=[]
         if((k+d) in arr):
@@ -39,8 +39,8 @@ def q3(arr, d):
                 a.append(k)
                 a.append(k+d)
                 a.append(k+(2*d))
-                trinca.append(a)
-    return len(trinca)
+                tri.append(a)
+    return len(tri)
 
 
 if __name__ == '__main__':
