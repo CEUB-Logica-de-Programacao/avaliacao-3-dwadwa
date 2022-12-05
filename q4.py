@@ -40,8 +40,7 @@ def q4(s):
                 numero=numero+1
 
     #print(f'há {numero} palavras')
-
-    return [numer]
+    return numero
 
 
 if __name__ == '__main__':
