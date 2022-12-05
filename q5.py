@@ -52,8 +52,35 @@
 # Para obter a nota máxima dessa questão, não deve-se utilizar nenhuma função pronta do Python.
 
 def q5(s):
-    # Escreva seu código aqui
+    char = {}
+    for i in s:
+        if i in char:
+            char[i] += 1
+        else:
+            char[i] = 1
+    min = char[i]
+    max = char[i]
+    qnt_dict = {}
+    for i, qnt in char.items():
+        if qnt in qnt_dict:
+            qnt_dict[qnt] += 1
+        else:
+            qnt_dict[qnt] = 1
+        if qnt < min:
+            min = qnt
+        if qnt > max:
+            max = qnt
+    if len(qnt_dict) == 1:
+        return True
+    elif len(qnt_dict) == 2:
+        if qnt_dict[max] == 1 and max - min == 1:
+            return True
+        elif qnt_dict[min] == 1 and min == 1:
+            return True
+    
     return False
+
+    
 
 
 if __name__ == '__main__':

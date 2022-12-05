@@ -21,8 +21,12 @@
 # Para obter a nota máxima dessa questão, não deve-se utilizar nenhuma função pronta do Python.
 
 def q2(start, end):
-    # Escreva seu código aqui
-    return []
+    q = []
+    for count in range(start,end+1):
+        print(count ** (1/2))
+        if (count ** (1/2)) // 1 == (count**(1/2)):
+            q.append(count)
+    return q
 
 
 if __name__ == '__main__':

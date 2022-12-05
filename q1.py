@@ -22,8 +22,15 @@
 # Para obter a nota máxima dessa questão, deve-se utilizar apenas um ``for`` e nenhuma função pronta do Python.
 
 def q1(heights):
-    # Escreva seu código aqui
-    return 0
+    max = 0
+    count = 0
+    for h in heights:
+        if h > max:
+            max = h
+            count*=0
+        if h == max:
+            count +=1  
+    return count
 
 
 if __name__ == '__main__':
