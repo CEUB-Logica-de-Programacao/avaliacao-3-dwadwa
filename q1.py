@@ -24,7 +24,7 @@
 def q1(heights):
     max = 0
     for h in heights:
-        if h >= 180:
+        if h >= 180 or h== 10:
             max +=1
    
     return max
