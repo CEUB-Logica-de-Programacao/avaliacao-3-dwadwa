@@ -21,15 +21,12 @@
 # Para obter a nota máxima dessa questão, não deve-se utilizar nenhuma função pronta do Python.
 
 def q2(start, end):
-    inicio = int(input("coloque o valor"))
     q = []
-
-    for count in range(1,inicio+1):
+    for count in range(start,end+1):
         print(count ** (1/2))
         if (count ** (1/2)) // 1 == (count**(1/2)):
             q.append(count)
-    print(q)
-    return [q]
+    return q
 
 
 if __name__ == '__main__':
