@@ -78,7 +78,7 @@ def q5(s):
         elif qnt_dict[min] == 1 and min == 1:
             return True
     
-      return False
+       return False
 
     
 
