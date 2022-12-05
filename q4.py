@@ -39,8 +39,8 @@ def q4(s):
             if lis[q]==pala[w]:
                 numer=numer+1
             
-    print(f'há {numer} palavras')
-    return 0
+    #print(f'há {numer} palavras')
+    return numer
 
 
 if __name__ == '__main__':
