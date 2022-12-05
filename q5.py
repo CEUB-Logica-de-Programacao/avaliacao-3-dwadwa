@@ -78,7 +78,7 @@ def q5(s):
             return True
         elif qnt_di[min] == 1 and min == 1:
             return True
-    return char
+    return False
 
     
 
