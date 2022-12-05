@@ -22,7 +22,7 @@
 # Para obter a nota máxima dessa questão, deve-se utilizar apenas um ``for`` e nenhuma função pronta do Python.
 
 def q1(heights):
-    max = 1
+    max = 0
     for h in heights:
         if h >= 180:
             max +=1
