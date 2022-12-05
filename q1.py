@@ -27,8 +27,8 @@ def q1(heights):
         if h >= 180:
             heights.remove(h)
             max +=1
-    print(max)
-    return 0
+   
+    return max
 
 
 if __name__ == '__main__':
