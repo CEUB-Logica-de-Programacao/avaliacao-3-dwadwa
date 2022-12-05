@@ -39,7 +39,7 @@ def q4(s):
             if lis[q]==pala[w]:
                 numero=numero+1
     if len(lis)==0:
-    numero=0                
+        numero=0                
     
     return numero
 
