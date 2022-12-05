@@ -41,7 +41,7 @@ def q4(s):
 
     #print(f'há {numero} palavras')
 
-    return numer
+    return [numer]
 
 
 if __name__ == '__main__':
