@@ -25,7 +25,6 @@ def q1(heights):
     max = 1
     for h in heights:
         if h >= 180:
-            heights.remove(h)
             max +=1
    
     return max
