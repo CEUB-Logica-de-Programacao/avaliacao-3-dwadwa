@@ -29,7 +29,7 @@
 def q4(s):
     x=q4
     lis=[]
-    numer=0
+    numer=1
     pala=('Q','W','E','R','T','Y','U','I','O','P','A','S','D','F','G','H','J','K','L','Z','X','C','V','B','N','M')
     for y in range(len(x)):
         lis.append(x[y])
