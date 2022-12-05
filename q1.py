@@ -23,11 +23,14 @@
 
 def q1(heights):
     max = 0
+    count = 0
     for h in heights:
-        if h >= 180 or h== 10:
-            max +=1
-   
-    return max
+        if h > max:
+            max = h
+            count*=0
+        if h == max:
+            count +=1  
+    return count
 
 
 if __name__ == '__main__':
