@@ -78,9 +78,9 @@ def q5(s):
             return True
         elif qnt_di[min] == 1 and min == 1:
             return True
-    return False
+    return char
 
-    return False
+    
 
 
 if __name__ == '__main__':
